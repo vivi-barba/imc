@@ -1,29 +1,37 @@
- .btn {
-     padding: 5px;
-     margin: 5px;
-     border: none;
-     border-radius: 2px;
+ h1{
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+ }
+
+ input{
+    padding: 5px;
+    margin: 5px;
+    border-radius: 2px;
  }
 
  .btn_go {
      background-color: lightgreen;
      color: white;
-     padding: 15px;
-     border-radius: 5px;
+     padding: 10px;
+     border-radius: 35px;
      border: none;
  }
 
- .btn:hover {
-     background-color: lightgreen;
-     color: white;
-     opacity: 1px;
+ .btn_go:hover {
+     background-color:green;
+     color: black;
+     font-size: 15px;
+     font-family: Arial, Helvetica, sans-serif;
  }
 
- .div form {
-     margin: 0 auto;
+ .justify_content{
+    display: grid;
+    justify-content: center;
  }
 
-.respost{
+
+.result-content{
     color: #000;
-    font-weight: bold;
+    margin: 10px;
+    font-family: Arial, Helvetica, sans-serifw;
 }

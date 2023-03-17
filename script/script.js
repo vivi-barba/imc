@@ -1,19 +1,8 @@
 function calculoImc(){
-  var inpWeight = document.getElementById("weight");
-  var inpHeight = document.getElementById("height");
+  var peso = document.getElementById("peso").value;
+  var altura = document.getElementById("altura").value / 100;
 
-  var imc = inpWeight / (inpHeight * inpHeight);
+  var imc = peso / (altura * altura);
 
-  imc.innerHTML = calculoImc;
+  document.getElementById("resultado").innerHTML = "seu imc é: " + imc.toFixed(2);
 }
-
-console.log(calculoImc());
-     // function calculoImc(altura, peso) {
-      // imc = peso / (altura * altura);
-        //mostra("Seu imc é " + Math.round(imc));
-      //}
-      // var peso = 61;
-      // var altura = 1.71;
-      // var imc = peso / (altura * altura);
-
-      //calculoImc(1.71, 61);
